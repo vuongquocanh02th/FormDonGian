@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So thich</title>
+    <style>
+
+        h2{
+            background-color: orangered;
+            color: white;
+        }
+
+        body{
+            align-content: center;
+            text-align: center;
+            justify-content: center;
+            background-color: aquamarine;
+        }
+        form{
+            width: 50%;
+            justify-content: center;
+            background-color: white;
+            text-wrap: wrap;
+        }
+       p{
+           margin-right: 38px;
+       }
+       .cbList{
+           display: grid;
+           grid-template-areas: "left right";
+       }
+
+    </style>
+</head>
+<body>
+<form action="">
+    <h2>SO THICH CUA BAN</h2>
+    Ho va ten <input type="text" name="yourname" size="30" autofocus="1"><br>
+    <p>Email <input type="text" name="email" size="20"></p>
+    So thich
+    <div id="cbList">
+        <input type="checkbox" id="thethao" name="hobby" value="The thao">
+        <label for="thethao">The thao</label>
+        <input type="checkbox" id="amnhac" name="hobby" value="The thao">
+        <label for="amnhac">Am nhac</label>
+        <input type="checkbox" id="docsach" name="hobby" value="The thao">
+        <label for="docsach">Doc sach</label><br>
+        <input type="checkbox" id="luotweb" name="hobby" value="The thao">
+        <label for="luotweb">Luot web</label>
+        <input type="checkbox" id="choigame" name="hobby" value="The thao">
+        <label for="choigame">Choi game</label>
+        <input type="checkbox" id="dienanh" name="hobby" value="The thao">
+        <label for="dienanh">Dien anh</label><br>
+        <input type="checkbox" id="dulich" name="hobby" value="The thao">
+        <label for="dulich">Du lich</label>
+    </div>
+
+    <br>
+    <input type="submit" name="submitform" value="Gui thong tin">
+    <input type="reset" name="resetform" value="Nhap lai">
+</form>
+</body>
+</html>
